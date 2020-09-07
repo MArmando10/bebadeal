@@ -1,0 +1,221 @@
+.back-logo {
+    background-color: white;
+    width: 100%;
+    max-width: 150px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    text-align: center;
+}
+/* color para barra de navegacion */
+.navigation-bar-style {
+    padding: 0;
+    border-color: black;
+    border-bottom-style: solid;
+}
+
+.img-height {
+    max-height: 60px;
+}
+
+/* color de letra */
+.navigation-font {
+    color: white !important;
+    font-family: sans-serif;
+    font-size: large;
+}
+
+.coin-class {
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    width: 50%;
+    min-width: 80px;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.8)
+}
+
+.align-exchange {
+    text-align: center;
+}
+
+.grid-exchange {
+    display: inline-grid;
+}
+
+.separate-exchange {
+    margin: 5px;
+}
+
+.background-no-game {
+    background: none;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+/* Container needed to position the button. Adjust the width as needed */
+.container {
+    position: relative;
+    width: 50%;
+    display: flex;
+    min-width: 350px;
+    max-width: 370px;
+    padding: 8px;
+}
+
+/* Make the image responsive */
+.container img {
+    width: 100%;
+    height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.container .btn:hover {
+    background-color: black;
+}
+
+.container-auth {
+  max-width: 100%;
+  width: 50%;
+}
+
+.buttons-box-auth {
+    position: relative;
+    display: grid;
+}
+
+.button-auth {
+    margin: 0;
+    padding: 0 !important;
+    position: relative !important;
+}
+
+.card-auth {
+  width: 100%;
+}
+
+body{
+    margin-top: 5rem;
+}
+.container{
+    background-color: white;
+}
+
+
+
+
+/* search vista index product */
+body,html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: white !important;
+    }
+
+    .search_icon{
+        height: 40px;
+        width: 40px;
+        float: right;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        color:white;
+        text-decoration:none;
+    }
+
+
+    body {
+        font-size: 1.05rem;
+    }
+
+    .border-lines {
+        background-color: darkgrey;
+        height: 10px;
+    }
+
+    /** estilos buscador**/
+    .redondeado {
+        border-radius: 30px;
+    }
+    .confondo {
+        background-color: rgb(240, 240, 240);
+    }
+
+
+     .bg-secondary {
+  border-radius: 10px;
+  margin: 8px;
+  padding: 3%;
+}
+    .bg-ter{
+    border-radius: 20px;
+    padding: 5%;
+    /* background-color: lavender; */
+    background-color:white;
+    }
+    .bg-term{
+        border-radius: 40px;
+        padding: 1%;
+        background-color: black;
+        }
+    .bord{
+        border-radius: 25px;
+    }
+
+    .navbar-toggler {
+        background-color: white;
+        height: 30px;
+    }
+
+    /* color naranja, o algo asi */
+    .logoClass{
+        margin: 0;
+        background-color: rgb(231, 143, 56);
+    }
+
+    .tama{
+        height: 30px;
+        width: 30px;
+    }
+
+
+
+
+
+body {
+    font-size: 1.2rem;
+    background-color: white;
+  }
+  .content {
+    max-width: 900px;
+    margin: auto;
+    /* background: white; */
+    padding: 25px;
+  }
+  .border-lines {
+        background-color: darkgrey;
+        height: 4px;
+        width: 100%;
+    }
+    .footer{
+           background-color: dimgrey;
+    }
